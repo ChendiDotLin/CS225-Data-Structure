@@ -1,0 +1,114 @@
+Grading revision r10731 by clin92, dated 2015-09-14 20:49:25.00090308 -0500 CDT
+Monad Autograder
+Testing mp2 at 2015-09-15 00:19:25
+
+"Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away." ~ Antoine de Saint-Exupery
+
+Setting up test environment...
+Compiling...
+================================================================
+In file included from unit_tests.cpp:64:
+./scene.h:1:14: warning: extra tokens at end of #ifndef directive [-Wextra-tokens]
+#ifndef SCENE.H
+             ^
+             //
+./scene.h:2:14: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define SCENE.H
+             ^
+2 warnings generated.
+In file included from scene.cpp:1:
+./scene.h:1:14: warning: extra tokens at end of #ifndef directive [-Wextra-tokens]
+#ifndef SCENE.H
+             ^
+             //
+./scene.h:2:14: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define SCENE.H
+             ^
+scene.cpp:408:37: warning: comparison of integers of different signs: 'unsigned long' and 'int' [-Wsign-compare]
+        if (x[i]+ (*imagearray[i]).width() > bigw) bigw = x[i]+(*imagearray[i]).width();
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~
+scene.cpp:409:38: warning: comparison of integers of different signs: 'unsigned long' and 'int' [-Wsign-compare]
+        if (y[i]+ (*imagearray[i]).height() > bigh) bigh = y[i]+(*imagearray[i]).height();
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~
+scene.cpp:421:28: warning: comparison of integers of different signs: 'unsigned int' and 'int' [-Wsign-compare]
+        for (unsigned a = x[i] ; a< x[i]+imagew ;a++){//draw inmage
+                                 ~^ ~~~~~~~~~~~
+scene.cpp:422:29: warning: comparison of integers of different signs: 'unsigned int' and 'int' [-Wsign-compare]
+                for (unsigned b = y[i] ; b<y[i]+imageh; b++){
+                                         ~^~~~~~~~~~~~
+6 warnings generated.
+In file included from unit_tests.cpp:64:
+./scene.h:1:14: warning: extra tokens at end of #ifndef directive [-Wextra-tokens]
+#ifndef SCENE.H
+             ^
+             //
+./scene.h:2:14: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define SCENE.H
+             ^
+2 warnings generated.
+In file included from scene.cpp:1:
+./scene.h:1:14: warning: extra tokens at end of #ifndef directive [-Wextra-tokens]
+#ifndef SCENE.H
+             ^
+             //
+./scene.h:2:14: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define SCENE.H
+             ^
+scene.cpp:408:37: warning: comparison of integers of different signs: 'unsigned long' and 'int' [-Wsign-compare]
+        if (x[i]+ (*imagearray[i]).width() > bigw) bigw = x[i]+(*imagearray[i]).width();
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~
+scene.cpp:409:38: warning: comparison of integers of different signs: 'unsigned long' and 'int' [-Wsign-compare]
+        if (y[i]+ (*imagearray[i]).height() > bigh) bigh = y[i]+(*imagearray[i]).height();
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~
+scene.cpp:421:28: warning: comparison of integers of different signs: 'unsigned int' and 'int' [-Wsign-compare]
+        for (unsigned a = x[i] ; a< x[i]+imagew ;a++){//draw inmage
+                                 ~^ ~~~~~~~~~~~
+scene.cpp:422:29: warning: comparison of integers of different signs: 'unsigned int' and 'int' [-Wsign-compare]
+                for (unsigned b = y[i] ; b<y[i]+imageh; b++){
+                                         ~^~~~~~~~~~~~
+6 warnings generated.
+
+
+Running tests...
+================================================================
+InvertColorsEven . . . . . . . . . [8 pts] - passed
+FlipLeftEven . . . . . . . . . . . [4 pts] - passed
+FlipLeftOdd  . . . . . . . . . . . [4 pts] - passed
+AdjustBrightnessEven . . . . . . . [3 pts] - passed
+AdjustBrightnessEven2  . . . . . . [3 pts] - passed
+AdjustBrightnessEven3  . . . . . . [3 pts] - passed
+ImageMakefile  . . . . . . . . . . [5 pts] - passed
+Valgrind1 (asan) . . . . . . . . . [5 pts] - passed
+AddPictureValidIndex . . . . . . . [2 pts] - passed
+AddPictureInvalidIndex . . . . . . [2 pts] - passed
+ImageAssignmentOperator  . . . . . [2 pts] - passed
+SceneGetPictureInvalidIndex  . . . [2 pts] - passed
+SceneChangeMaxLayersLarger . . . . [2 pts] - FAILED
+SceneChangeMaxLayersSmaller (asan) [1 pts] - FAILED
+SceneChangeMaxLayersInvalidChange  [2 pts] - FAILED
+SceneCopyCtor  . . . . . . . . . . [2 pts] - passed
+SceneCopyCtor2 . . . . . . . . . . [2 pts] - passed
+SceneAssignmentOperator  . . . . . [2 pts] - passed
+SceneAssignmentOperator2 . . . . . [2 pts] - passed
+SceneChangeLayer . . . . . . . . . [2 pts] - passed
+SceneChangeLayerInvalid  . . . . . [2 pts] - passed
+SceneDrawScene . . . . . . . . . . [3 pts] - passed
+SceneDrawScene2  . . . . . . . . . [3 pts] - passed
+SceneDrawScene3  . . . . . . . . . [3 pts] - passed
+SceneDrawScene4  . . . . . . . . . [3 pts] - passed
+SceneDrawSceneChangeLayer  . . . . [2 pts] - passed
+SceneDrawSceneDeletePicture  . . . [2 pts] - passed
+SceneDrawSceneTranslate  . . . . . [2 pts] - passed
+SceneDrawSceneTranslate2 . . . . . [2 pts] - passed
+SceneTranslateInvalid  . . . . . . [2 pts] - passed
+SceneTranslateInvalid2 . . . . . . [1 pts] - passed
+SceneDeletePictureInvalid  . . . . [2 pts] - passed
+Valgrind2 (asan) . . . . . . . . . [5 pts] - passed
+Valgrind3 (asan) . . . . . . . . . [5 pts] - passed
+SceneMakefile  . . . . . . . . . . [5 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 95
+

@@ -1,0 +1,24 @@
+Grading revision r8825 by clin92, dated 2015-09-12 13:17:13.000278422 -0500 CDT
+Monad Autograder
+Testing lab_memory at 2015-09-14 01:11:23
+
+"**** ******** **** nickels!!!" ~ Chase Geigle
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+test_constructor (asan) [5 pts]  - passed
+test_allocate (asan)  . [5 pts]  - passed
+test_printrooms (asan)  [20 pts] - passed
+test_any_output . . . . [30 pts] - passed
+test_correct_output . . [40 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+

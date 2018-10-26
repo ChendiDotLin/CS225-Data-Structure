@@ -1,0 +1,41 @@
+Grading revision r38553 by clin92, dated 2015-11-07 22:29:25.00057122 -0600 CST
+Monad Autograder
+Testing mp6.1 at 2015-11-11 00:18:06
+
+"Even if by chance this world should end tomorrow, if it's together with you, would 'I'm okay with that too' be the cool attitude you'd take?" ~ Makino Yui
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+testSmallerDimVal . . . . . [4 pts] - passed
+testShouldReplace . . . . . [4 pts] - passed
+testLinearCtor_1_10 . . . . [6 pts] - passed
+testLinearCtor_3_31 . . . . [6 pts] - passed
+testLinearCtor_2_14 . . . . [6 pts] - passed
+testLinearNNS_1_10  . . . . [6 pts] - passed
+testLinearNNS_3_31  . . . . [6 pts] - passed
+testLinearNNS_2_14  . . . . [6 pts] - passed
+testDeceptiveNNOneLevelCtor [4 pts] - passed
+testDeceptiveNNOneLevelNNS  [4 pts] - passed
+testMinesCtor . . . . . . . [4 pts] - passed
+testMinesNNS  . . . . . . . [4 pts] - passed
+testDeceptiveMinesCtor  . . [4 pts] - passed
+testDeceptiveMinesNNS . . . [4 pts] - passed
+testTieBreakingCtor . . . . [4 pts] - passed
+testTieBreakingNNS  . . . . [4 pts] - passed
+testLeftRecurseCtor . . . . [4 pts] - passed
+testLeftRecurseNNS  . . . . [4 pts] - passed
+testRandom1Ctor . . . . . . [4 pts] - passed
+testRandom1NNS  . . . . . . [4 pts] - passed
+testRandom2Ctor . . . . . . [4 pts] - passed
+testRandom2NNS  . . . . . . [4 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+

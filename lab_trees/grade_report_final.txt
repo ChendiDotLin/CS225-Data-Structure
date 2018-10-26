@@ -1,0 +1,23 @@
+Grading revision r24249 by clin92, dated 2015-10-09 14:02:03.000039329 -0500 CDT
+Monad Autograder
+Testing lab_trees at 2015-10-12 01:57:05
+
+"If you have a procedure with ten parameters, you probably missed some." ~ Alan J. Perlis
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+test_isOrdered  . [33 pts] - passed
+test_mirror . . . [33 pts] - passed
+test_printPaths . [34 pts] - passed
+test_sumDistances [25 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 125
+

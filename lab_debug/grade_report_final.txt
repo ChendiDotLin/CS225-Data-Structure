@@ -1,0 +1,24 @@
+Grading revision r5809 by clin92, dated 2015-09-04 13:42:27.000963464 -0500 CDT
+Monad Autograder
+Testing lab_debug at 2015-09-07 00:15:41
+
+"Recursion is magic. " ~ Prof. Jeff Erickson | "Recursion is NOT magic." ~ Prof. Craig Zilles 
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+no_segfaults . . . [20 pts] - passed
+produces_out_png . [10 pts] - passed
+similar_sketch . . [30 pts] - passed
+complete_in_01_png [20 pts] - passed
+complete_in_02_png [20 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+

@@ -1,0 +1,22 @@
+Grading revision r2695 by clin92, dated 2015-08-30 14:51:15.00004258 -0500 CDT
+Monad Autograder
+Testing lab_intro at 2015-08-31 00:17:33
+
+"And I'm sitting there hallucinating a bird on my pillow from the benadryl and I think to myself ... 'I need to write a poem about Makefiles'." ~ Lisa Sproat
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+testBrighten  . [33 pts] - passed
+testCrosshairs  [33 pts] - passed
+testBlendImages [34 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+

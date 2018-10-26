@@ -1,0 +1,27 @@
+Grading revision r32032 by clin92, dated 2015-10-25 15:27:18.000671124 -0500 CDT
+Monad Autograder
+Testing lab_dict at 2015-10-26 01:29:36
+
+"Simplicity is the ultimate sophistication." ~ Leonardo da Vinci
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+test_get_anagrams  . . . . [15 pts] - passed
+test_get_all_anagrams  . . [15 pts] - passed
+test_fib . . . . . . . . . [5 pts]  - passed
+test_memoized_fib  . . . . [15 pts] - passed
+test_homophones  . . . . . [10 pts] - passed
+test_cartalk_puzzle  . . . [10 pts] - passed
+test_get_common_words_3  . [15 pts] - passed
+test_get_common_words_3000 [15 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+
